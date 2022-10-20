@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab cloning revera</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>  
+    <header class="container">
+        <nav class="navbar navbar-expand-md row">
+              <a class="navbar-brand col-md-4 fs-1 fw-bold" href="#">REVERA</a>
+              <div class="collapse navbar-collapse col-md-8">
+                <ul class="navbar-nav">
+                  <li> <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li> <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li> <a class="nav-link" href="#">Sample page</a>
+                  </li>
+                  <li> <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li> <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">Parent page <spam class="caret"></spam></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Full page</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Child page 1</a></li>
+                      <li><a href="#">Child page 2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+    </header>
+
+    <section class="section-slider container-fluid m-0 p-0">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active position-relative">
+            <img src="img/slider-1.jpg" class="d-block img-fluid" alt="Fondo carrusel">
+            <div class="text-slider1 w-75 flex-column position-absolute top-50 start-50 translate-middle text-white">
+              <h1 class="text-center fs-2">ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h1>
+              <p class="text-center"> Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+            </div>
+          </div>
+          <div class="carousel-item active position-relative">
+            <img src="img/slider-2.jpg" class="d-block img-fluid" alt="Fondo carrusel">
+            <div class="text-slider1 w-75 flex-column position-absolute top-50 start-50 translate-middle text-white">
+              <h1 class="text-center fs-2">FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h1>
+              <p class="text-center">Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+            </div>
+          </div>
+          <div class="carousel-item active position-relative">
+            <img src="img/slider-3.jpg" class="d-block img-fluid" alt="Fondo carrusel">
+            <div class="text-slider1 w-75 flex-column position-absolute top-50 start-50 translate-middle text-white">
+              <h1 class="text-center fs-2">FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h1>
+              <p class="text-center">Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+            </div>
+          </div>
+          <div class="carousel-item active position-relative">
+            <img src="img/slider-4.jpg" class="d-block img-fluid" alt="Fondo carrusel">
+            <div class="text-slider1 w-75 flex-column position-absolute top-50 start-50 translate-middle text-white">
+              <h1 class="text-center fs-2">FUSCE SCELERISQUE NIBH AC NISL LUCTUS INTERDUM.</h1>
+              <p class="text-center">Nam luctus velit ultricies vestibulum eleifend. Proin imperdiet varius rutrum. Curabitur placerat lacus eu ligula pellentesque euismod? Aliquam volutpat augue id nibh auctor, at varius dui semper? Suspendisse non pellentesque sapien, et sagittis erat. Quisque et dignissim elit. Sed sit amet sapien ac quam vestibulum suscipit ac id diam. Morbi accumsan est vitae tellus vulputate […]</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="bg-danger carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="bg-danger carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="we-do bg-danger text-white text-center container-fluid">
+      <div class="row">
+        <art class="col-sm-4 mt-5 mb-5">
+          <spam class="border border-5 border-white rounded-circle">
+            <svg class="m-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+          </spam>
+          <h3>Web design</h3>
+          <p class="fw-light">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
+        </art>
+        <art class="col-sm-4 mt-5 mb-5">
+          <img src="" alt="Picto2">
+          <h3>Web development</h3>
+          <p class="fw-light">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
+        </art>
+        <art class="col-sm-4 mt-5 mb-5">
+          <img src="" alt="Picto3">
+          <h3>User interface</h3>
+          <p class="fw-light">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
+        </art>
+      </div>
+    </section>
+
+    <section class="projects-articles">
+        <div class="container">
+            <p>Esto será la sección con proyectos y artículos</p>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="container">
+            <p>Esto será la sección con info finals</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Esto será el footer</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
